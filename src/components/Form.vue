@@ -31,7 +31,7 @@
       <button type="submit" class="btn btn-primary">Enregistrer la vente</button>
     </form>
     
-    <Produits :sales="sales" />
+    <Produit :sales="sales" />
 
   </div>
 </template>
@@ -39,11 +39,11 @@
 <script>
 import { ref, reactive } from 'vue'
 // import Produits from './Produits.vue'
-import Produits from './Produits.vue';
+import Produit from './Produit.vue';
 
 export default {
   components: {
-    Produits
+    Produit
   },
   setup() {
     const sale = reactive({

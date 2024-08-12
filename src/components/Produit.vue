@@ -15,7 +15,7 @@
         <td>{{ sale.designation }}</td>
         <td>{{ sale.quantity }}</td>
         <td>{{ sale.price.toFixed(2) }} €</td>
-        <td>{{ (sale.quantity * sale.price).toFixed(2) }} €</td>
+        <td>{{ (sale.quantity * sale.price).toFixed(2) }} mru</td>
       </tr>
     </tbody>
   </table>
